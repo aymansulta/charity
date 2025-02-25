@@ -1,12 +1,6 @@
 {
   "transactions": [
     {
-      "id": "6321",
-      "phoneNumber": "52365890000",
-      "selectedService": "اطعام",
-      "amount": "87"
-    },
-    {
       "id": 1740409946720,
       "selectedService": "صدقات",
       "phoneNumber": "87412589632",
