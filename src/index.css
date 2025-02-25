@@ -1,0 +1,30 @@
+/* @import url('https://fonts.cdnfonts.com/css/droid-arabic-kufi'); */
+@import url("https://fonts.googleapis.com/css2?family=Droid+Arabic+Kufi&family=Montserrat:wght@400;700&display=swap");
+
+
+
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #074620;
+  --color-secondary: #BD8E34;
+  --color-accent: #0F9D47;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Droid Arabic Kufi'; */
+  /* direction: rtl; */
+}
+.font-kufi {
+  font-family: "Droid Arabic Kufi", sans-serif;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
