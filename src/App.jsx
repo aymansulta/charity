@@ -6,10 +6,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Rules from './pages/Rules';
 import Projects from './pages/Projects';
-import Zakat from './pages/Zakat';
+import FatawaZakat from './pages/FatawaZakat';
 import Donate from './pages/Donate';
-import Calculate from './pages/Calculate';
-import Documents from './pages/Documents';
 import { EnterPhone } from './pages/EnterPhone';
 import EnterAmount from './pages/EnterAmount';
 import Confirm from './pages/Confirm';
@@ -25,10 +23,8 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="rules" element={<Rules />} />
             <Route path="projects" element={<Projects />} />
-            <Route path="zakat" element={<Zakat />} />
+            <Route path="zakat" element={<FatawaZakat />} />
             <Route path="donate" element={<Donate />} />
-            <Route path="calculate" element={<Calculate />} />
-            <Route path="documents" element={<Documents />} />
             <Route path="enterPhone" element={<EnterPhone />} />
             <Route path="enterAmount" element={<EnterAmount />} />
             <Route path="confirm" element={<Confirm />} />
